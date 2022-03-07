@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 
 const Home = () => {
   return (
-    <div className="w-full m-w-screen">
+    <div className="w-full m-w-screen overflow-x-hidden">
         <Head>
             <title>Create Next App</title>
             <link rel="icon" href="/favicon.ico"/>
