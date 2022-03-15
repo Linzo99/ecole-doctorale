@@ -3,6 +3,7 @@
 ## Comment installer ?
 
 **Avoir Nodejs dabord**<br>
+**cloner le repo et cd vers le repo**<br>
 ```shell
 npm install
 ```
