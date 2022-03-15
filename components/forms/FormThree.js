@@ -1,8 +1,12 @@
 import { motion, AnimatePresence } from "framer-motion"
 
-const FormThree = ({ setForm, data:donnee }) => {
+const FormThree = ({ setForm, data:donnee, submit }) => {
 	const [data, setData] = donnee
 	const {intitule, etablissement, ecole_doctorale, laboratoire_acceuil, addresse_labo, theme_recherche} = data
+	const doSubmit = (e) => {
+		e.preventDefault()
+		submit()
+	}
 	return (
 		<AnimatePresence>
 		<motion.div key={0} 
@@ -69,7 +73,7 @@ const FormThree = ({ setForm, data:donnee }) => {
                     <button onClick={() => setForm(1) } className="flex items-center rounded bg-blue-600 px-6 py-2.5 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg" >
                         Precedent
                     </button>
-                    <button className="ml-auto flex items-center rounded bg-blue-600 px-6 py-2.5 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg" >
+                    <button onClick={ doSubmit } className="ml-auto flex items-center rounded bg-blue-600 px-6 py-2.5 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg" >
                         Enregistrer
                     </button>
                 </div>

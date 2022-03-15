@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion"
 
 const FormOne = ({ setForm, data:donnee}) => {
 	const [data, setData] = donnee
-	const { prenom, nom, email, telephone, addresse, nationalite } = data
+	const { prenoms, nom, email, telephone, addresse, nationalite } = data
 	return (
 		<AnimatePresence>
 		<motion.div key={0} 
@@ -22,8 +22,8 @@ const FormOne = ({ setForm, data:donnee}) => {
 							id="exampleInput123"
 							aria-describedby="emailHelp123"
 							placeholder="Prenoms"
-							value={ prenom }
-							onChange={({ target }) => setData({ ...data, 'prenom':target.value})}
+							value={ prenoms }
+							onChange={({ target }) => setData({ ...data, 'prenoms':target.value})}
 						/>
 					</div>
 					<div className="form-group mb-6">

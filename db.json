@@ -1,0 +1,70 @@
+{
+  "demandes": [
+    {
+      "id": 0
+    },
+    {
+      "prenoms": "Alioune",
+      "nom": "Sall",
+      "email": "sallalioune99@gmail.com",
+      "telephone": "784670118",
+      "addresse": "kmf",
+      "nationalite": "senegalaise",
+      "diplome": "master2",
+      "specialite": "info",
+      "date_obtention": "2022-03-02",
+      "mention": "Tres Bien",
+      "intitule": "Linzo",
+      "etablissement": "ESP",
+      "ecole_doctorale": "ESP",
+      "laboratoire_acceuil": "G.Informatique",
+      "addresse_labo": "ucas/esp",
+      "theme_recherche": "Intelligence artificielle",
+      "universite": "UCAD",
+      "status": "attente",
+      "id": 1
+    },
+    {
+      "prenoms": "Mouhamed",
+      "nom": "Kounta",
+      "email": "mouhadmedk@gmail.com",
+      "telephone": "784671018",
+      "addresse": "Mariste",
+      "nationalite": "senegalaise",
+      "diplome": "master2",
+      "specialite": "info",
+      "date_obtention": "2022-03-02",
+      "mention": "Tres Bien",
+      "intitule": "Mouha",
+      "etablissement": "ESP",
+      "ecole_doctorale": "ESP",
+      "laboratoire_acceuil": "G.Informatique",
+      "addresse_labo": "ucas/esp",
+      "theme_recherche": "Intelligence artificielle",
+      "universite": "UCAD",
+      "status": "acceptees",
+      "id": 1
+    },
+    {
+      "prenoms": "Pis",
+      "nom": "sow",
+      "email": "sow@gmail.com",
+      "telephone": "77777777777",
+      "addresse": "keur massar",
+      "nationalite": "sen",
+      "diplome": "master2",
+      "specialite": "info",
+      "date_obtention": "2022-03-14",
+      "mention": "Passable",
+      "intitule": "deep ",
+      "etablissement": "esp",
+      "ecole_doctorale": "edmi",
+      "laboratoire_acceuil": "lacgaa",
+      "addresse_labo": "ucad",
+      "theme_recherche": "ia",
+      "status": "attente",
+      "universite": "UCAD",
+      "id": 2
+    }
+  ]
+}

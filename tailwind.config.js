@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       colors: {
         primary: "#2897E7",
-        lightgray: "C4C4C4"
+        lightgray: "C4C4C4",
+        lightwhite: "#f6f7fb",
       },
       backgroundImage: {
         logo: "url('/images/logo2.png')",
